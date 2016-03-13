@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {64DA6FC2-FAB0-483F-8EF2-0FB997BC9B81}
+database: master
+path: /sitecore/layout/Placeholder Settings/Playground/Playground Content Components/Menu Link List
+parent: {BAF371E7-2163-4AB1-AC5C-BA10676AC930}
+name: Menu Link List
+master: {FA1FF317-4FA8-49E8-963F-0603C8F1A101}
+template: {5C547D4E-7111-4995-95B0-6B561751BF2E}
+templatekey: Placeholder
+
+----field----
+field: {7256BDAB-1FD2-49DD-B205-CB4873D2917C}
+name: Placeholder Key
+key: placeholder key
+content-length: 0
+
+
+----field----
+field: {E391B526-D0C5-439D-803E-17512EAE6222}
+name: Allowed Controls
+key: allowed controls
+content-length: 116
+
+{96B25803-0B56-4617-88E7-4399AA34267D}|{B6C22AEE-9591-43BC-878D-6BABD8BD423A}|{9DA37B24-A86F-437F-AFE5-F5159EA2CF13}
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+200
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 5280943c-bc97-47f7-8616-8c9b824e41f1
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160312T014227Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5280943c-bc97-47f7-8616-8c9b824e41f1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160312T014227Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

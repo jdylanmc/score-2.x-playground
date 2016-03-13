@@ -1,0 +1,93 @@
+----item----
+version: 1
+id: {E23877AE-B39D-4A85-8CC5-7E1981F78905}
+database: master
+path: /sitecore/content/Playground/home/test
+parent: {94FF9D43-1A37-4639-827A-F74433AF6BD2}
+name: test
+master: {00000000-0000-0000-0000-000000000000}
+template: {BE062C11-008D-48C3-9464-EC129D5AAF2A}
+templatekey: Playground Content Page
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 850
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{80AD9752-E350-4ADC-8835-F2276D8B15FF}" p:before="r[@uid='{A4E28880-9C97-4298-824F-1C3642FABD76}']" s:ds="" s:id="{D4FC4AA1-6EA3-4EFD-A475-3B36449E017B}" s:par="Show Hide&amp;Image Style={86607804-D9ED-410A-9D6B-E1ECCD3590D8}&amp;Responsive=1&amp;Highlight Style={AE6E7846-43D3-4B92-89D3-1278D7FF243E}" s:ph="/Page Content/Main_a35ca485-721a-4fc9-9167-88a1678a33c3" /><r uid="{A4E28880-9C97-4298-824F-1C3642FABD76}" p:before="r[@uid='{A35CA485-721A-4FC9-9167-88A1678A33C3}']" s:ds="" s:id="{EC34B868-4E89-4729-9C9E-088BD4A7A57E}" s:par="Content Spot Style&amp;Show Hide" s:ph="/Page Content/Main_a35ca485-721a-4fc9-9167-88a1678a33c3" /><r uid="{A35CA485-721A-4FC9-9167-88A1678A33C3}" s:id="{2382B636-F01A-4F65-88D9-39C576FF7D73}" s:ph="Page Content" /></d></r>
+----version----
+language: en
+version: 1
+revision: 06da545b-fa83-40c1-a647-363843e93f82
+
+----field----
+field: {4FC1CABF-F32B-428C-8C01-5C306C9EBBDB}
+name: Page Title
+key: page title
+content-length: 4
+
+test
+----field----
+field: {199BAD57-CE40-46C1-A8EA-054F3C4C4117}
+name: Open Graph Page Title
+key: open graph page title
+content-length: 4
+
+test
+----field----
+field: {5F2ED4E4-5B3E-4B26-87D9-E095A6E8E70D}
+name: Meta Description
+key: meta description
+content-length: 4
+
+test
+----field----
+field: {4D3DCA3F-59C0-4F7A-886E-277AD66B568A}
+name: Default Title
+key: default title
+content-length: 4
+
+test
+----field----
+field: {3DB7BD0B-626C-4F94-8321-EFC40C45C0D6}
+name: Breadcrumb Title
+key: breadcrumb title
+content-length: 4
+
+test
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160312T140302Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+06da545b-fa83-40c1-a647-363843e93f82
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160312T152729Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

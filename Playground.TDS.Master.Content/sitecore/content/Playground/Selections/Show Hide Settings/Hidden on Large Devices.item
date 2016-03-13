@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {BCBC68F2-738F-4DDF-991B-195B2A1B3A33}
+database: master
+path: /sitecore/content/Playground/Selections/Show Hide Settings/Hidden on Large Devices
+parent: {18CBEC2A-DBD5-47C1-A644-DF6338DCE7D6}
+name: Hidden on Large Devices
+master: {208B2F30-C5C9-4ACF-BC67-130A26C0B019}
+template: {0B812923-4A0F-4472-BB25-A2D4B10D881E}
+templatekey: List Item
+
+----field----
+field: {39BC23A7-4842-431A-ACED-F0A15EAB496D}
+name: Value
+key: value
+content-length: 9
+
+hidden-lg
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: cd89bbb6-5179-46e6-b62a-f9b1a0b56817
+
+----field----
+field: {FF438BF6-9409-45F5-ABEA-CA2049239A0F}
+name: Text
+key: text
+content-length: 23
+
+Hidden on Large Devices
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160312T014232Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cd89bbb6-5179-46e6-b62a-f9b1a0b56817
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160312T014232Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

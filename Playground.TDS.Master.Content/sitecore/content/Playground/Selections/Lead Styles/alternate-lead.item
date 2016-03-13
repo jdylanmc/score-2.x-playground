@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {BBF55E3D-B7EC-4F71-ABA8-F393704B8503}
+database: master
+path: /sitecore/content/Playground/Selections/Lead Styles/alternate-lead
+parent: {0BF7C29A-2353-466D-A549-0D0A474F572E}
+name: alternate-lead
+master: {208B2F30-C5C9-4ACF-BC67-130A26C0B019}
+template: {0B812923-4A0F-4472-BB25-A2D4B10D881E}
+templatekey: List Item
+
+----field----
+field: {39BC23A7-4842-431A-ACED-F0A15EAB496D}
+name: Value
+key: value
+content-length: 14
+
+alternate-lead
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: e7454d2d-2918-4a86-9bef-008d168b1775
+
+----field----
+field: {FF438BF6-9409-45F5-ABEA-CA2049239A0F}
+name: Text
+key: text
+content-length: 14
+
+alternate-lead
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160312T014231Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e7454d2d-2918-4a86-9bef-008d168b1775
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160312T014231Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

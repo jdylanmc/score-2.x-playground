@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {9E16EA54-3A54-4A81-9799-32E995FD0935}
+database: master
+path: /sitecore/layout/Placeholder Settings/Playground/Playground Content Components/List Group
+parent: {BAF371E7-2163-4AB1-AC5C-BA10676AC930}
+name: List Group
+master: {FA1FF317-4FA8-49E8-963F-0603C8F1A101}
+template: {5C547D4E-7111-4995-95B0-6B561751BF2E}
+templatekey: Placeholder
+
+----field----
+field: {7256BDAB-1FD2-49DD-B205-CB4873D2917C}
+name: Placeholder Key
+key: placeholder key
+content-length: 0
+
+
+----field----
+field: {E391B526-D0C5-439D-803E-17512EAE6222}
+name: Allowed Controls
+key: allowed controls
+content-length: 38
+
+{376F6C94-DC03-4BDE-BBD3-169BA57E5187}
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 4
+
+1000
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: c9a5621b-6339-4f02-b39e-3f701af43391
+
+----field----
+field: {87871FF5-1965-46D6-884F-01D6A0B9C4C1}
+name: Description
+key: description
+content-length: 256
+
+<p>The List Group container defines a single placeholder key value in BootstrapUI - <strong>List Group</strong>. &nbsp;By default, only a single list group item rendering is offered. &nbsp;Any custom renderings created for a site would be defined here.</p>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160312T014227Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c9a5621b-6339-4f02-b39e-3f701af43391
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160312T014227Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {4CAA4F33-D9EF-4453-A9D6-EA90AEDA5950}
+database: master
+path: /sitecore/content/Playground/Selections/Panel Styles
+parent: {34D841DE-EA7E-40E5-8FE3-A84AD704BC15}
+name: Panel Styles
+master: {208B2F30-C5C9-4ACF-BC67-130A26C0B019}
+template: {59ADF01E-409E-4449-9438-062B4D501E48}
+templatekey: Panel Styles
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 57fa5e4e-70fb-45f6-852b-14683603bdfd
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160312T014232Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+57fa5e4e-70fb-45f6-852b-14683603bdfd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160312T014232Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

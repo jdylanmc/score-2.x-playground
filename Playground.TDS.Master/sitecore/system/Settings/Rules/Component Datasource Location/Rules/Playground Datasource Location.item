@@ -1,0 +1,76 @@
+----item----
+version: 1
+id: {E69DA0F5-1987-4DF2-A45F-735AC5D284DF}
+database: master
+path: /sitecore/system/Settings/Rules/Component Datasource Location/Rules/Playground Datasource Location
+parent: {FAF87069-C5F0-4B90-9405-A38D68DA3D9D}
+name: Playground Datasource Location
+master: {00000000-0000-0000-0000-000000000000}
+template: {D9BDF22F-6E17-47F3-AB64-49C717BA92DA}
+templatekey: Rule
+
+----field----
+field: {908EF45D-4940-4B6A-857D-3739BA4ACF8F}
+name: Rule
+key: rule
+content-length: 1230
+
+<ruleset>
+    <rule uid="{FA1A46FD-2322-4879-B0E1-2F4821B5FC29}">
+        <conditions>
+            <or uid="B64F3E17BEA54DBAA9CFF05B8B69BD44">
+                <or uid="53AA4C97DB914B9E85A3B9971A35F545">
+                    <or uid="B884E13A33BA45AFAECA1FBF72CFAA11">
+					    <condition id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}" itemid="{94FF9D43-1A37-4639-827A-F74433AF6BD2}" uid="9F9CBA20DD914BC18908CAF87FB14273"/>
+                        <condition id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}" itemid="{4B658727-C011-4772-B185-4301C8453049}" uid="E3C53D70A0B74CBCB07F8713760D4873"/>
+                    </or>
+                    <condition id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}" itemid="{2951B45E-575B-4363-B2F0-3C35A3DE5AB2}" uid="5E89DF8210BB442BA1A1050BFD0CDEB6"/>
+                </or>
+                <condition id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}" itemid="{81D0B431-5396-4DC1-BF28-E409686D199E}" uid="9B0BD3C993794CD8838CC3123B6A03FB"/>
+            </or>
+        </conditions>
+        <actions>
+            <action id="{26C41584-2D8F-40F8-B95D-8904C60D6FAB}" itemid="{9D90B838-4E6C-447C-BBAE-F4D7875FD14B}" uid="0916CF7ABCC34DC18AD21D08C92AA8CF"/>
+        </actions>
+    </rule>
+</ruleset>
+----version----
+language: en
+version: 1
+revision: 952918a8-e1bd-416d-ab49-bdb855d4dba9
+
+----field----
+field: {45CF9130-802A-41BE-B3EB-C02F657DCC2E}
+name: Name
+key: name
+content-length: 30
+
+Playground Datasource Location
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160312T014234Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+952918a8-e1bd-416d-ab49-bdb855d4dba9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160312T014234Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

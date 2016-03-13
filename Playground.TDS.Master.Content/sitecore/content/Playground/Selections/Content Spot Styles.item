@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {C680DA9E-E7FB-4E6F-8DF5-FF8FEF51DF7D}
+database: master
+path: /sitecore/content/Playground/Selections/Content Spot Styles
+parent: {34D841DE-EA7E-40E5-8FE3-A84AD704BC15}
+name: Content Spot Styles
+master: {208B2F30-C5C9-4ACF-BC67-130A26C0B019}
+template: {7718D11E-C3EC-43F2-BCE5-C1E3C7955056}
+templatekey: Content Spot Styles
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 9704318c-c7c7-41f0-9b4b-a69a6a5a0ce0
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160312T014230Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9704318c-c7c7-41f0-9b4b-a69a6a5a0ce0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160312T014230Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

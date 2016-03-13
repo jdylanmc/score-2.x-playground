@@ -1,0 +1,70 @@
+----item----
+version: 1
+id: {12ED9C17-B2B5-4102-AF5F-8D32BFE02841}
+database: master
+path: /sitecore/system/Settings/Rules/Get Lookup Source Item/Rules/Playground Fields Source
+parent: {8CD2CAFC-EFB2-45A4-BA5A-267B2FADE3BF}
+name: Playground Fields Source
+master: {00000000-0000-0000-0000-000000000000}
+template: {D9BDF22F-6E17-47F3-AB64-49C717BA92DA}
+templatekey: Rule
+
+----field----
+field: {908EF45D-4940-4B6A-857D-3739BA4ACF8F}
+name: Rule
+key: rule
+content-length: 759
+
+<ruleset>
+    <rule uid="{B6A73888-56D2-4AE3-83E9-B5F25F5CD67D}" name="Playground Fields Source">
+        <conditions>
+            <or uid="DC34369D77064D67B3DE8AEB61C7F4EA">
+                <condition id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}" itemid="{2951B45E-575B-4363-B2F0-3C35A3DE5AB2}" uid="9B1C8A8FCC57421899E3B579136D9B93"/>
+                <condition id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}" itemid="{81D0B431-5396-4DC1-BF28-E409686D199E}" uid="2E30A5407F8640C2B8E516E22A776118"/>
+            </or>
+        </conditions>
+        <actions>
+            <action id="{4E9AE6C0-1D67-4EC1-B1E0-1EE12B81BF38}" itemid="{94FF9D43-1A37-4639-827A-F74433AF6BD2}" uid="666D76B30148476593497F688EFD8088"/>
+        </actions>
+    </rule>
+</ruleset>
+----version----
+language: en
+version: 1
+revision: 8b0b83c3-421e-4315-9bc7-69dc9eb3b99a
+
+----field----
+field: {45CF9130-802A-41BE-B3EB-C02F657DCC2E}
+name: Name
+key: name
+content-length: 24
+
+Playground Fields Source
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160312T014233Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8b0b83c3-421e-4315-9bc7-69dc9eb3b99a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160312T014233Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

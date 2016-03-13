@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {A111BDE8-4E96-4C8C-AB46-373E9E8AD92B}
+database: master
+path: /sitecore/content/Playground/Selections/Hero Styles
+parent: {34D841DE-EA7E-40E5-8FE3-A84AD704BC15}
+name: Hero Styles
+master: {208B2F30-C5C9-4ACF-BC67-130A26C0B019}
+template: {55242F35-28F7-4F3B-9085-E69113D51542}
+templatekey: Hero Styles
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: c3f6560e-2174-4bfa-90df-6de3a5470d45
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160312T014230Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c3f6560e-2174-4bfa-90df-6de3a5470d45
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160312T014230Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
