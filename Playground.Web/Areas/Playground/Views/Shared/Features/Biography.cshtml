@@ -1,0 +1,23 @@
+﻿@using Playground.Data
+@model Playground.Web.Areas.Playground.Models.BiographyRenderingModel
+
+<div class="@Model.Classes">
+    @if (Model.HasDatasource)
+    {
+        <div class="portrait @Model.RenderingParameters.ImageClass">
+            @Html.Sitecore().Field(BiographyDatasource.Fields.Portrait)
+        </div>
+        <div class="name">
+            @Html.Sitecore().Field(BiographyDatasource.Fields.Name)
+        </div>
+        <div class="description">
+            @Html.Sitecore().Field(BiographyDatasource.Fields.Description)
+        </div>
+    }
+    else if (Sitecore.Context.PageMode.IsExperienceEditor)
+    {
+        <div class="error">
+            WARNING: Biography component has no datasource!
+        </div>
+    }
+</div>

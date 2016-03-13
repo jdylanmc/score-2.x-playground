@@ -1,0 +1,99 @@
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Sandbox</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>807E44CF-D131-445F-A3E9-88431BC8257F</ProjectGuid>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <OutputPath>.\$(Configuration)\</OutputPath>
+    <SourceWebPhysicalPath>
+    </SourceWebPhysicalPath>
+    <SourceWebProject>
+    </SourceWebProject>
+    <SourceWebVirtualPath>
+    </SourceWebVirtualPath>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <EnableUpdateable>true</EnableUpdateable>
+    <UseMerge>true</UseMerge>
+    <SingleAssemblyName>Playground.TDS.Master.Content</SingleAssemblyName>
+    <UseWebConfigReplacement>false</UseWebConfigReplacement>
+    <DeleteAppCodeCompiledFiles>true</DeleteAppCodeCompiledFiles>
+    <LegacyFileReplacement>false</LegacyFileReplacement>
+    <AssemblyName>Playground.TDS.Master.Content</AssemblyName>
+    <Name>Playground.TDS.Master.Content</Name>
+    <RootNamespace>Playground.TDS.Master.Content</RootNamespace>
+    <SitecoreDatabase>master</SitecoreDatabase>
+    <PackageAuthor>Playground</PackageAuthor>
+    <PackagePublisher>Playground</PackagePublisher>
+    <PackageVersion>1.0</PackageVersion>
+    <PackageReadme>
+    </PackageReadme>
+    <SitecoreAssemblyPath>..\Libs\Sitecore</SitecoreAssemblyPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Sandbox' ">
+    <DebugSymbols>true</DebugSymbols>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+    <OutputPath>.\Sandbox\</OutputPath>
+    <SitecoreDeployFolder>..\sandbox\Website</SitecoreDeployFolder>
+    <SitecoreWebUrl>http://playground</SitecoreWebUrl>
+    <SitecoreAccessGuid>CF0A45A5-A183-45DC-B9D8-EA381A8368E3</SitecoreAccessGuid>
+    <InstallSitecoreConnector>True</InstallSitecoreConnector>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'INT-Single' ">
+    <GeneratePackage>True</GeneratePackage>
+    <SeperateFilesAndItems>False</SeperateFilesAndItems>
+    <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'PROD-CD' ">
+    <GeneratePackage>True</GeneratePackage>
+    <SeperateFilesAndItems>False</SeperateFilesAndItems>
+    <AddDateTimeToPackageName>True</AddDateTimeToPackageName>
+    <SitecoreAssemblyPath>..\Libs\Sitecore</SitecoreAssemblyPath>
+    <PackageAuthor>Playground</PackageAuthor>
+    <PackagePublisher>Playground</PackagePublisher>
+    <PackageVersion>1.0</PackageVersion>
+    <PackageReadme>
+    </PackageReadme>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'PROD-CM' ">
+    <GeneratePackage>True</GeneratePackage>
+    <SeperateFilesAndItems>False</SeperateFilesAndItems>
+    <AddDateTimeToPackageName>True</AddDateTimeToPackageName>
+    <SitecoreAssemblyPath>..\Libs\Sitecore</SitecoreAssemblyPath>
+    <PackageAuthor>Playground</PackageAuthor>
+    <PackagePublisher>Playground</PackagePublisher>
+    <PackageVersion>1.0</PackageVersion>
+    <PackageReadme>
+    </PackageReadme>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'PROD-Single' ">
+    <GeneratePackage>True</GeneratePackage>
+    <SeperateFilesAndItems>False</SeperateFilesAndItems>
+    <AddDateTimeToPackageName>True</AddDateTimeToPackageName>
+    <SitecoreAssemblyPath>..\Libs\Sitecore</SitecoreAssemblyPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'QA-Single' ">
+    <GeneratePackage>True</GeneratePackage>
+    <SeperateFilesAndItems>False</SeperateFilesAndItems>
+    <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'CI' ">
+    <GeneratePackage>True</GeneratePackage>
+    <SeperateFilesAndItems>False</SeperateFilesAndItems>
+    <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyAttributes Include="AssemblyFileVersion">
+      <Value>$(AssemblyFileVersion)</Value>
+    </AssemblyAttributes>
+    <AssemblyAttributes Include="AssemblyVersion">
+      <Value>$(AssemblyVersion)</Value>
+    </AssemblyAttributes>
+  </ItemGroup>
+  <ItemGroup>
+    <ExcludedAssemblies Include="Sitecore.%2a.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" />
+</Project>

@@ -1,0 +1,35 @@
+.score-section-header {
+    @include vertical-space($vertical-spacing);
+    .score-header-image {
+        img {
+
+        }
+    }
+    h2 {
+
+    }
+    h3 {
+
+    }
+}
+.score-section-hero {
+    @include vertical-space($vertical-spacing);
+    @extend .jumbotron; //inherit bootstrap
+    .score-header-image {
+        img {
+
+        }
+    }
+    h2 {
+
+    }
+    h3 {
+
+    }
+    .score-hero-body {
+        
+    }
+    .score-call-to-action {
+
+    }
+}
