@@ -165,12 +165,6 @@
     <Folder Include="Areas\Playground\Controllers\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Playground.Base\Playground.Base.csproj">
-      <Project>{00B8350A-498F-4EAA-9CD7-0B86C5461548}</Project>
-      <Name>Playground.Base</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Areas\Playground\_html\index.html" />
   </ItemGroup>
   <ItemGroup>
@@ -310,6 +304,12 @@
     <None Include="Web.Sandbox.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Playground.Base\Playground.Base.csproj">
+      <Project>{00b8350a-498f-4eaa-9cd7-0b86c5461548}</Project>
+      <Name>Playground.Base</Name>
+    </ProjectReference>
   </ItemGroup>
   <!--<PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

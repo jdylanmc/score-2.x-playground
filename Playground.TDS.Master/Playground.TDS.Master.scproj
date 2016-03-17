@@ -29,7 +29,7 @@
     <SitecoreAssemblyPath>..\Libs\Sitecore</SitecoreAssemblyPath>
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
     <EnableCodeGeneration>false</EnableCodeGeneration>
-    <AssemblyStatus>Include</AssemblyStatus>
+    <AssemblyStatus>Exclude</AssemblyStatus>
     <ManageRoles>False</ManageRoles>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Sandbox' ">
@@ -39,6 +39,8 @@
     <SitecoreWebUrl>http://playground</SitecoreWebUrl>
     <SitecoreAccessGuid>CF0A45A5-A183-45DC-B9D8-EA381A8368E3</SitecoreAccessGuid>
     <InstallSitecoreConnector>True</InstallSitecoreConnector>
+    <EnableValidations>False</EnableValidations>
+    <ValidationSettingsFilePath>.\Playground.TDS.Master_Sandbox.xml</ValidationSettingsFilePath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'INT-Single' ">
     <GeneratePackage>True</GeneratePackage>
@@ -190,14 +192,6 @@
       <Project>{0AFC5177-5F24-4DFF-BC1F-CAC7F255D998}</Project>
       <Name>Playground.Web</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <ExcludedAssemblies Include="Playground.Custom.dll" />
-    <ExcludedAssemblies Include="Playground.Custom.pdb" />
-    <ExcludedAssemblies Include="Playground.Data.dll" />
-    <ExcludedAssemblies Include="Playground.Data.pdb" />
-    <ExcludedAssemblies Include="Playground.Web.dll" />
-    <ExcludedAssemblies Include="Playground.Web.pdb" />
   </ItemGroup>
   <ItemGroup>
     <SitecoreItem Include="sitecore\layout.item">
@@ -493,6 +487,11 @@
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
+  </ItemGroup>
+  <ItemGroup>
+    <ExcludedAssemblies Include="Sitecore.%2a.dll" />
+    <ExcludedAssemblies Include="System.Web.%2a.%2a.dll" />
+    <ExcludedAssemblies Include="System.Web.%2a.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" />
   <!-- Make sure Output directory is cleaned up every time we build from the command line -->

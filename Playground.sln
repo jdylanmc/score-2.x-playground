@@ -22,6 +22,9 @@ Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Playground.TDS.Master.Conte
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground.Environments", "Playground.Environments\Playground.Environments.csproj", "{E4B40932-A393-4EA6-AF01-353CCB5BCAC3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0AFC5177-5F24-4DFF-BC1F-CAC7F255D998} = {0AFC5177-5F24-4DFF-BC1F-CAC7F255D998}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -150,29 +153,8 @@ Global
 		{E4B40932-A393-4EA6-AF01-353CCB5BCAC3}.Release|Any CPU.Build.0 = PROD-Single|Any CPU
 		{E4B40932-A393-4EA6-AF01-353CCB5BCAC3}.Sandbox|Any CPU.ActiveCfg = Sandbox|Any CPU
 		{E4B40932-A393-4EA6-AF01-353CCB5BCAC3}.Sandbox|Any CPU.Build.0 = Sandbox|Any CPU
-		{92ED20A0-9E57-4B52-86BA-785D7FCF6A5A}.CI|Any CPU.ActiveCfg = Debug|Any CPU
-		{92ED20A0-9E57-4B52-86BA-785D7FCF6A5A}.CI|Any CPU.Build.0 = Debug|Any CPU
-		{92ED20A0-9E57-4B52-86BA-785D7FCF6A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{92ED20A0-9E57-4B52-86BA-785D7FCF6A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{92ED20A0-9E57-4B52-86BA-785D7FCF6A5A}.INT-Single|Any CPU.ActiveCfg = Release|Any CPU
-		{92ED20A0-9E57-4B52-86BA-785D7FCF6A5A}.INT-Single|Any CPU.Build.0 = Release|Any CPU
-		{92ED20A0-9E57-4B52-86BA-785D7FCF6A5A}.PROD-CD|Any CPU.ActiveCfg = Release|Any CPU
-		{92ED20A0-9E57-4B52-86BA-785D7FCF6A5A}.PROD-CD|Any CPU.Build.0 = Release|Any CPU
-		{92ED20A0-9E57-4B52-86BA-785D7FCF6A5A}.PROD-CM|Any CPU.ActiveCfg = Release|Any CPU
-		{92ED20A0-9E57-4B52-86BA-785D7FCF6A5A}.PROD-CM|Any CPU.Build.0 = Release|Any CPU
-		{92ED20A0-9E57-4B52-86BA-785D7FCF6A5A}.PROD-Single|Any CPU.ActiveCfg = Release|Any CPU
-		{92ED20A0-9E57-4B52-86BA-785D7FCF6A5A}.PROD-Single|Any CPU.Build.0 = Release|Any CPU
-		{92ED20A0-9E57-4B52-86BA-785D7FCF6A5A}.QA-Single|Any CPU.ActiveCfg = Release|Any CPU
-		{92ED20A0-9E57-4B52-86BA-785D7FCF6A5A}.QA-Single|Any CPU.Build.0 = Release|Any CPU
-		{92ED20A0-9E57-4B52-86BA-785D7FCF6A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{92ED20A0-9E57-4B52-86BA-785D7FCF6A5A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{92ED20A0-9E57-4B52-86BA-785D7FCF6A5A}.Sandbox|Any CPU.ActiveCfg = Debug|Any CPU
-		{92ED20A0-9E57-4B52-86BA-785D7FCF6A5A}.Sandbox|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{92ED20A0-9E57-4B52-86BA-785D7FCF6A5A} = {E2D1E971-A276-4CD0-B98E-BC15AC960CA9}
 	EndGlobalSection
 EndGlobal
