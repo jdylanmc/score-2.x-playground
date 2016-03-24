@@ -143,6 +143,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Areas\Playground\Models\ExampleModel.cs" />
+    <Compile Include="Areas\Playground\Controllers\SanityCheck.cs" />
     <Compile Include="Areas\Playground\Models\BiographyRenderingModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Areas\Playground\PlaygroundAreaRegistration.cs" />
@@ -161,9 +163,7 @@
     <None Include="Areas\Playground\scss\theme\_flatly-bootswatch.scss" />
     <Content Include="Areas\Playground\Views\Web.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Areas\Playground\Controllers\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="Areas\Playground\_html\index.html" />
   </ItemGroup>
@@ -276,6 +276,7 @@
     <Content Include="packages.config" />
     <Content Include="Areas\Playground\scss\theme\_flatly-variables.scss" />
     <Content Include="Areas\Playground\Views\Shared\Features\Biography.cshtml" />
+    <Content Include="Areas\Playground\Views\SanityCheck\DependencyResolution.cshtml" />
     <None Include="Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
