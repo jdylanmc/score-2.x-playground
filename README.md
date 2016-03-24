@@ -8,3 +8,5 @@ To run this:
 3. Open the solution and allow nuget packages to restore.  If you open the Nuget Package Manager, SCORE should restore itself.
 4. Place your license.xml into any unit test projects, and your SCORE.license into App_Data of your sandbox
 5. Compile and deploy the solution.
+
+For more information, please check here: https://brainjocks.atlassian.net/wiki/display/SDD/BrainJocks+SCORE+Developers+Documentation
